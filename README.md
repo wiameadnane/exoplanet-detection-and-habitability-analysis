@@ -124,10 +124,6 @@ The XGBoost model is trained on NASA TESS mission data with:
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
-## 📝 License
-
-This project is open source and available under the MIT License.
-
 ## 🙏 Acknowledgments
 
 - NASA TESS Mission for providing exoplanet observation data
@@ -135,5 +131,3 @@ This project is open source and available under the MIT License.
 - Pollinations.ai for image generation
 - The open-source community
 
-
-**Built with ❤️ for space exploration and the search for life beyond Earth**
