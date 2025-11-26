@@ -120,10 +120,6 @@ The XGBoost model is trained on NASA TESS mission data with:
 - Feature importance tracking
 - Regular retraining capability
 
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
 ## 🙏 Acknowledgments
 
 - NASA TESS Mission for providing exoplanet observation data
