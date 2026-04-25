@@ -8,7 +8,7 @@ LifeBeyond is an advanced machine learning system that detects exoplanets from N
   <img src="static/lifebeyond-logo.png" alt="LifeBeyond Logo" width="300">
 </p>
 
-## 🌟 Features
+## Features
 
 - **Exoplanet Detection**: XGBoost-based machine learning model trained on NASA TESS data
 - **Habitability Analysis**: GPT-5 powered Earth similarity scoring and analysis
@@ -17,7 +17,7 @@ LifeBeyond is an advanced machine learning system that detects exoplanets from N
 - **Model Retraining**: Upload new data and retrain the model with updated observations
 - **Clean UI**: Modern, minimal interface for scientific data analysis
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 
@@ -60,7 +60,7 @@ LifeBeyond is an advanced machine learning system that detects exoplanets from N
    
    Navigate to `http://127.0.0.1:5000`
 
-## 📊 Project Structure
+## Project Structure
 
 ```
 lifebeyond/
@@ -81,7 +81,7 @@ lifebeyond/
 └── .env                  # Environment variables (not in repo)
 ```
 
-## 🔬 How It Works
+## How It Works
 
 ### 1. Exoplanet Detection
 - Uses XGBoost classifier trained on 40 features from NASA TESS observations
@@ -99,7 +99,7 @@ lifebeyond/
 - Based on actual exoplanet parameters
 - Cached for performance
 
-## 🛠️ API Endpoints
+## API Endpoints
 
 - `GET /` - Main application interface
 - `POST /api/predict` - Detect exoplanet from observation data
@@ -111,7 +111,7 @@ lifebeyond/
 - `POST /api/retrain` - Retrain model with new data
 - `GET /api/health` - Check database connection
 
-## 📈 Model Performance
+## Model Performance
 
 The XGBoost model is trained on NASA TESS mission data with:
 - 60% training set
@@ -120,7 +120,7 @@ The XGBoost model is trained on NASA TESS mission data with:
 - Feature importance tracking
 - Regular retraining capability
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - NASA TESS Mission for providing exoplanet observation data
 - OpenRouter for GPT-5 API access
